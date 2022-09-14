@@ -24,7 +24,7 @@ To extract the text into your terminal, run the following
 ```
 from image_extract.ext import ImgExt
 
-img = ImgExt(image_path="/home/akinwumi/Pictures/Screenshots/diabetes.png",file_name="test")
+img = ImgExt(image_path="image_path",file_name="test")
 
 # To return text
 
