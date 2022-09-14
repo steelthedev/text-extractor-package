@@ -15,7 +15,7 @@ The following steps demonstrate how to use this package:
 To install, use the code below.
 
 ```
-pip install extract-img-text
+pip install extract-img-txt
 
 ```
 ### Extract text 
