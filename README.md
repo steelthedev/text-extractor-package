@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-=======
-#Text-Image-Extractor
+
+# Text-Image-Extractor
 
 This package helps to extract text from clear images such as screenshots, scanned pictures etc.
 
@@ -24,4 +23,16 @@ To extract the text into your terminal, run the following
 
 ```
 from image_extract.ext import ImgExt
->>>>>>> fc59bcd7b74ce782e00cd631d6d5247614f6af32
+
+img = ImgExt(image_path="/home/akinwumi/Pictures/Screenshots/diabetes.png",file_name="test")
+
+# To return text
+
+text=img.get_text()
+
+print(text)
+
+# To convert text to docx
+img.convert_to_word()
+
+```
