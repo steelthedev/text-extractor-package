@@ -1,5 +1,24 @@
-<<<<<<< HEAD
-Text-Image-Extractor
-=======
-Text-Image-Extractor
->>>>>>> 624812429aa699c0e6fde1d951f66bdc113c61df
+#Text-Image-Extractor
+
+This package helps to extract text from clear images such as screenshots, scanned pictures etc.
+
+The following steps demonstrate how to use this package:
+
+### Prerequisites
+
+* Pytesseract must be installed on your local devices.
+* For Linux users, you must install pytesseract OCR using sudoku
+
+### Install package
+
+To install, use the code below.
+
+```
+pip install extract-img-text
+
+```
+### Extract text 
+To extract the text into your terminal, run the following
+
+```
+from image_extract.ext import ImgExt
