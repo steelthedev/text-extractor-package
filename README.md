@@ -8,7 +8,7 @@ The following steps demonstrate how to use this package:
 ### Prerequisites
 
 * Pytesseract must be installed on your local devices.
-* For Linux users, you must install pytesseract OCR using sudoku
+* For Linux users, you must install pytesseract OCR using sudo
 
 ### Install package
 
