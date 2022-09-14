@@ -12,7 +12,6 @@ setuptools.setup(
     long_description_content_type = "text/markdown",
     packages=["image_extract"],
     license=":: MIT License",
-    project_urls ="https://github.com/steelthedev/text-extractor-package",
     install_requires=[                                                                                                              
         'pytesseract',                                                                   
         'python-docx',
