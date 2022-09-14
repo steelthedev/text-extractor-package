@@ -12,8 +12,7 @@ class ImgExt():
 
     def get_text(self):
         text = pytesseract.image_to_string(self.image_path)
-        text = re.sub(r'[^\x00-\x7F]+|\x0c',' ', text)
-
+        text = re.sub(r'[^\x00-\x7F]+|\x0c',' ', text)     
         return text
     def convert_to_word(self):
         document = Document()

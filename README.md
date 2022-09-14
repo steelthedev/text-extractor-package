@@ -24,6 +24,10 @@ To extract the text into your terminal, run the following
 ```
 from image_extract.ext import ImgExt
 
+#uncomment if you are a window user 
+
+#pytesseract.tesseract_cmd = path_to_tesseract_on _your_device 
+
 img = ImgExt(image_path="image_path",file_name="test")
 
 # To return text
