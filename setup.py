@@ -14,8 +14,8 @@ setuptools.setup(
     license=":: MIT License",
     project_urls ="https://github.com/steelthedev/text-extractor-package",
     install_requires=[                                                                                                              
-        'pytesseract',
+        'pytesseract',                                                                   
         'python-docx',
         'pillow'
         ]
-)
+)                  
