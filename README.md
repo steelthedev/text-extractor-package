@@ -18,6 +18,14 @@ To install, use the code below.
 pip install extract-img-txt
 
 ```
+
+### Python dependencies
+On Ubuntu or Debian Linux:
+
+```
+$ sudo apt-get install tesseract-ocr libtesseract-dev libleptonica-dev
+```
+
 ### Extract text 
 To extract the text into your terminal, run the following
 
